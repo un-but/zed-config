@@ -1,1 +1,1 @@
-UnBut's Zed editor config
+# UnBut's Zed editor config
