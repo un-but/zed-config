@@ -1,0 +1,114 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      // "shift shift": "file_finder::Toggle"
+    }
+  },
+  {
+    "context": "Editor && vim_mode == insert",
+    "bindings": {
+      // "j k": "vim::NormalBefore"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "alt-e": "workspace::ToggleLeftDock"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-b": null
+    }
+  },
+  {
+    "context": "((VimControl && !menu) || (!Editor && !Terminal))",
+    "bindings": {
+      "tab": "vim::GoToTab"
+    }
+  },
+  {
+    "context": "((VimControl && !menu) || (!Editor && !Terminal))",
+    "bindings": {
+      "shift-tab": "vim::GoToPreviousTab"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "alt-p": [
+        "projects::OpenRecent",
+        {
+          "create_new_window": false
+        }
+      ]
+    }
+  },
+  {
+    "bindings": {
+      "alt-,": "zed::OpenSettings"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-tab": null
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-shift-tab": null
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-k ctrl-s": null
+    }
+  },
+  {
+    "bindings": {
+      "alt-<": "zed::OpenKeymap"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "alt-o": "command_palette::Toggle"
+    }
+  },
+  {
+    "context": "vim_mode == normal",
+    "bindings": {
+      ";": "command_palette::Toggle"
+    }
+  },
+  {
+    "context": "((vim_mode == helix_normal || vim_mode == helix_select) && !menu)",
+    "bindings": {
+      "alt-p": null
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "alt-h": "terminal_panel::Toggle"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-`": null
+    }
+  }
+]

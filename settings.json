@@ -1,0 +1,45 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "agent": {
+    "button": true,
+    "model_parameters": []
+  },
+  "outline_panel": {
+    "indent_size": 20.0,
+    "button": true,
+    "default_width": 300.0
+  },
+  "project_panel": {
+    "indent_size": 20.0,
+    "default_width": 250.0
+  },
+  "git": {
+    "git_gutter": "hide"
+  },
+  "autosave": "off",
+  "buffer_font_family": "AdwaitaMono Nerd Font Mono",
+  "icon_theme": "Catppuccin Macchiato",
+  "disable_ai": true,
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "vim_mode": true,
+  "base_keymap": "JetBrains",
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+  "theme": "Adwaita Dark",
+
+  "languages": {
+    "Python": {
+      "tab_size": 4
+    }
+  }
+}
