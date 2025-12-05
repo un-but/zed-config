@@ -110,5 +110,35 @@
     "bindings": {
       "ctrl-`": null
     }
+  },
+  {
+    "context": "(Editor || vim_mode == visual)",
+    "bindings": {
+      "ctrl-c": "editor::Copy"
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "alt-2": "git_panel::ToggleFocus"
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "alt-0": null
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "alt-2": "git_panel::ToggleFocus"
+    }
+  },
+  {
+    "context": "((Editor && showing_signature_help) && !showing_completions)",
+    "bindings": {
+      "tab": "editor::SignatureHelpNext"
+    }
   }
 ]

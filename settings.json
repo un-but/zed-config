@@ -26,7 +26,11 @@
   "ui_font_family": "Adwaita Mono",
   "buffer_font_family": "Adwaita Mono",
   "ui_font_size": 18,
-  "buffer_font_size": 18,
+  "buffer_font_size": 18.0,
+
+  "project_panel": {
+    "default_width": 280.0
+  },
 
   "languages": {
     "Python": {
